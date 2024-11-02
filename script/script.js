@@ -10,7 +10,7 @@ $(document).ready(function() {
                 type: 'GET',
                 success: function(data) {
                     displayResult(data);
-                    $('#new-search-button').show(); // Mostra o botão de nova pesquisa
+                    $('#new-search-button').show();
                 },
                 error: function() {
                     $('#resultado').html('<p>Erro ao buscar dados. Verifique o CNPJ e tente novamente.</p>');
@@ -64,7 +64,5 @@ $(document).ready(function() {
     $('#nConsult').click(function() {
         location.reload(true);
     });
-    
-
-   
+       
 });

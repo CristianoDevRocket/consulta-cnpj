@@ -11,11 +11,12 @@ body {
 
 #i-img-cnpj {
     width: 50%;
-    height: auto; /* Mantém a proporção da imagem */
+    height: auto; 
+    
     border-radius: 50%;
-    display: block; /* Para centralizar com margin auto */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%; 
 }
 
 
